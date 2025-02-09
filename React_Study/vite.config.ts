@@ -26,7 +26,7 @@ export default defineConfig({
                 /**
                  * additionalData를 활용해 모든 SCSS 파일에서 main.scss 자동 포함
                  */
-                additionalData: `@import "./src/assets/styles/main.scss";`,
+                additionalData: `@use "@assets/styles/main.scss" as *;`,
             },
         },
     },
