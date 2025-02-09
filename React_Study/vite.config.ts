@@ -16,6 +16,9 @@ export default defineConfig({
             '@types': fileURLToPath(new URL('./src/types', import.meta.url)),
             '@recoil': fileURLToPath(new URL('./src/recoil', import.meta.url)),
             '@apis': fileURLToPath(new URL('./src/apis', import.meta.url)),
+            '@constants': fileURLToPath(
+                new URL('./src/constants', import.meta.url),
+            ),
         },
     },
 
